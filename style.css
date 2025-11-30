@@ -5,7 +5,7 @@ body{
 .header{
     width: 100%;
     height: 15vh;
-    background-color: brown;
+    background-color: blueviolet;
 
 }.navbar{
     display: flex;
@@ -25,6 +25,44 @@ body{
 }.navbar a:hover{
     padding: 10px;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: rgb(30, 206, 36);
     color:black;
+}.hero{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: blue;
+    align-items: center;
+}
+.hero h2{
+color:white;
+font-size:40px;
+
+}.container{
+    display: grid;
+    display: flex;
+    justify-content: center;    
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+
+}.calisma-card{
+ 
+    height: 50px;
+  margin-left: 10px;
+}img{
+    border-radius: 10px;
+}.hizmetlerim container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.services{
+    width: 33%;
+    height: 30px;
+    margin-left: 120px;
+}.hizmetlerim{
+    margin-top: 500px;
 }
