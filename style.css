@@ -4,7 +4,7 @@ body{
 }
 .header{
     width: 100%;
-    height: 15vh;
+    height: 60px;
     background-color: blueviolet;
 
 }.navbar{
@@ -35,6 +35,7 @@ body{
     color:white;
     background-color: blue;
     align-items: center;
+    margin-top: 15px;
 }
 .hero h2{
 color:white;
@@ -65,4 +66,40 @@ font-size:40px;
     margin-left: 120px;
 }.hizmetlerim{
     margin-top: 500px;
+}.adi-soyadi{
+    width: 100%;
+}
+.adi-soyadi-input{
+    width: 50%;
+    
+    font-size: 20px;
+    border-radius: 10px;
+
+}.iletisim{
+    margin-top: 600px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    
+}.email{
+   width: 100%;
+    text-align: center;
+}.email-input{
+     width: 50%;
+    border-radius: 10px;
+    font-size: 20px;
+}.message{
+    width: 100%;
+}
+textarea{
+    width: 50%;
+    font-size: 20px;
+    
+}button{
+    width: 20%;
+    height: 25px;
+    font-size: 15px;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
 }
